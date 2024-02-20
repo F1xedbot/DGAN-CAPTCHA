@@ -1,4 +1,19 @@
 # DGAN-CAPTCHA
 
-Overview
-This project aims to create a model that generates captchas challenging for robots or captcha-reading models to decipher while maintaining readability for humans. The model has achieved a 68% accuracy in generating human-readable captchas and a 70% success rate in evading generic text recognition models. Using a Deep Conditional Generative Adversarial Network and the captcha dataset [yzm](https://github.com/aceimnorstuvwxz/captcha-dataset/blob/master/yzm1.tar.gz), it produces unique captchas effective against automated reading tools.
+## Overview
+DGAN-CAPTCHA is a project focused on developing a model that generates captchas challenging for robots or captcha-reading models to decipher while ensuring readability for humans. The model has achieved a notable 68% accuracy in generating complex and human-readable captchas and a commendable 70% success rate in evading generic text recognition models. Employing a Deep Conditional Generative Adversarial Network (DCGAN) and utilizing the captcha dataset [yzm](https://github.com/aceimnorstuvwxz/captcha-dataset/blob/master/yzm1.tar.gz), this project delivers unique captchas effective against automated reading tools.
+
+## Results
+- Captcha generated from a generic GAN model trained on the yzm dataset at 100 epochs
+  ![Generic Captcha]()
+- Captcha generated from DCGAN trained on the yzm dataset at 50 epochs
+  ![DCGAN Captcha]()
+
+## Project Structure
+Within the project, two folders are present:
+- **Model Folder:** Contains notebooks for data preprocessing on the yzm datasets and code for implementing and training the main model.
+- **Weights Folder:** Stores the weights for the generator and discriminator for simplified testing and integration.
+
+Explore the preprocessed dataset for training the model [here]()
+
+Feel free to explore, contribute, and enhance the DGAN-CAPTCHA project for improved captcha generation and increased security against automated recognition tools.
