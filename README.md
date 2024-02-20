@@ -5,9 +5,9 @@ DGAN-CAPTCHA is a project focused on developing a model that generates captchas 
 
 ## Results
 - Captcha generated from a generic GAN model trained on the yzm dataset at 100 epochs
-  <img src="https://github.com/F1xedbot/DGAN-CAPTCHA/blob/60cdd338a4a0e7f2d27c51a690d21d889bc9e54c/image_at_epoch_100.png" width="500">
+  <img src="https://github.com/F1xedbot/DGAN-CAPTCHA/blob/0198363030a7ce0c17e4557e0d18490cfff58096/gan_generated_captcha_epoch_100.png" width="500">
 - Captcha generated from DCGAN trained on the yzm dataset at 50 epochs
-  ![DCGAN Captcha]()
+  <img src="https://github.com/F1xedbot/DGAN-CAPTCHA/blob/0198363030a7ce0c17e4557e0d18490cfff58096/dcgan_generated_captcha_epoch_50.png" width="500">
 
 ## Project Structure
 Within the project, two folders are present:
